@@ -1,16 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
-class App extends React.Component {
-  render () {
-    return (
-      <React.Fragment>
-        Greeting: {this.props.greeting}
-      </React.Fragment>
-    );
-  }
+import React from 'react'
+
+const App = () => {
+  return (
+    <h1>Greeting</h1>
+  )
 }
 
-App.propTypes = {
-  greeting: PropTypes.string
-};
 export default App
